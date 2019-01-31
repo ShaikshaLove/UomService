@@ -10,10 +10,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl: 
-     defaultZone: http://sa-warehouse-registry-eureka-sandbox.mymicroapps.net/eureka/
+     defaultZone: http://sa-warehouseserviceregistry-SANDBOX.mymicroapps.net/eureka/
      
   instance:
-    hostname: http://sa-warehouse-registry-eureka-sandbox.mymicroapps.net
+    hostname: http://sa-warehouseserviceregistry-SANDBOX.mymicroapps.net
     
 #Giving a unique id for registration in eureka registry
 spring:
