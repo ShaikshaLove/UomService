@@ -1,0 +1,30 @@
+#Setting up a server port number
+server:
+ port: 2343
+ 
+# Making UomService as a eureka client to eureka server
+#in otherwords registering UomService in Wharehouse Eureka Rigistry
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl: 
+     defaultZone: http://sa-warehouse-registry-eureka-sandbox.mymicroapps.net/eureka/
+     
+  instance:
+    hostname: http://sa-warehouse-registry-eureka-sandbox.mymicroapps.net
+    
+#Giving a unique id for registration in eureka registry
+spring:
+ application:
+    name: UOM-SERVICE
+
+#MangoDB atlas-cloud configuraton
+ data:
+    mongodb:
+      database: MyDB
+      uri:  mongodb+srv://orange:orange123@cluster0-xero4.mongodb.net/MyDB?retryWrites=true
+      
+ 
+ 
