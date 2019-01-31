@@ -25,6 +25,3 @@ spring:
     mongodb:
       database: MyDB
       uri:  mongodb+srv://orange:orange123@cluster0-xero4.mongodb.net/MyDB?retryWrites=true
-      
- 
- 
