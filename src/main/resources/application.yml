@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl: 
-     defaultZone: http://sa-warehouseserviceregistry-sandbox.mymicroapps.net//eureka/
+     defaultZone: http://sa-warehouseserviceregistry-sandbox.mymicroapps.net/eureka/
      
   instance:
     hostname: http://sa-warehouseserviceregistry-sandbox.mymicroapps.net
