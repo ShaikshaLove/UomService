@@ -10,10 +10,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl: 
-     defaultZone: http://sa-warehouseserviceregistry-sandbox.mymicroapps.net/eureka/
+     defaultZone: http://alienschat.cfapps.io/eureka/
      
   instance:
-    hostname: http://sa-warehouseserviceregistry-sandbox.mymicroapps.net
+    hostname: http://alienschat.cfapps.io
     
 #Giving a unique id for registration in eureka registry
 spring:
