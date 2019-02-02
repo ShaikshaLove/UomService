@@ -13,7 +13,7 @@ eureka:
      defaultZone: http://sa-warehouse-service-registry-sandbox.mymicroapps.net/eureka/
      
   instance:
-    hostname: localhost
+    hostname: ${vcap.application.uris[0]}
 
     
 #Giving a unique id for registration in eureka registry
