@@ -13,7 +13,11 @@ eureka:
      defaultZone: http://sa-warehouse-service-registry-sandbox.mymicroapps.net/eureka/
      
   instance:
-    hostname: ${vcap.application.uris[0]}
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+    
+   
+
+
 
     
 #Giving a unique id for registration in eureka registry
