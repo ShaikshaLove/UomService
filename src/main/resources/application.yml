@@ -1,6 +1,6 @@
 #Setting up a server port number
 server:
- port: 2343
+ port: 2342
  
 # Making UomService as a eureka client to eureka server
 #in otherwords registering UomService in Wharehouse Eureka Rigistry
